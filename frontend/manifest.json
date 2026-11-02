@@ -1,0 +1,16 @@
+{
+  "name": "PQL",
+  "short_name": "PQL",
+  "description": "PQL Trading Platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0d1e",
+  "theme_color": "#8b5cf6",
+  "icons": [
+    {
+      "src": "/pql-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
