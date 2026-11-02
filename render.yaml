@@ -4,7 +4,7 @@ services:
     env: node
     region: singapore
     plan: free
-    buildCommand: npm install && cd backend && npx prisma generate && npx prisma db push --accept-data-loss && cd ..
+    buildCommand: npm install && npm run build
     startCommand: node server.js
     envVars:
       - key: NODE_ENV
